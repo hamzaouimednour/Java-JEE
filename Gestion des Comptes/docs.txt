@@ -1,0 +1,24 @@
+1) create the project.
+2) .metier : client,compte,operation, (compteCaurant, compteEpargne : extends without serializable),versement, retrait(never forget toString and equals methods)
+
+
+package :
+1- Interface IBMetier (les funcs)
+2- class implements cette interface ou definie les funcs
+
+-------------------------------------------------------------------------------
+<!-- Start Fix / I Add this to fix MySQL Driver Error "Cannot load driver class: com.mysql.jdbc.Driver Spring" -->
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+</dependency>
+<!-- End Fix / -->
+
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+</dependency>
+------------------------------------------------------------------------------------
+protected attributes
+abstract class: ex soit compte1 ou compte2
+dType : code_cpte (cc ou ce)
